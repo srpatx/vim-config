@@ -17,6 +17,9 @@ ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking an
 ## [csv.vim](https://github.com/chrisbra/csv.vim)
 A Filetype plugin for csv files 
 
+## [delimitMate](https://github.com/Raimondi/delimitMate)
+Provides insert mode auto-completion for quotes, parens, brackets, etc.
+
 ## [fzf](https://github.com/junegunn/fzf)
 🌸 A command-line fuzzy finder
 

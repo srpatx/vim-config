@@ -121,3 +121,6 @@
 [submodule "pack/buildgroundwork/start/vim-rbenv"]
 	path = pack/buildgroundwork/start/vim-rbenv
 	url = https://github.com/tpope/vim-rbenv.git
+[submodule "pack/buildgroundwork/start/delimitMate"]
+	path = pack/buildgroundwork/start/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
