@@ -173,11 +173,11 @@ Adds a *surround* action for most motions.  Possibly the greatest text-editing p
 A Vim wrapper for running tests on different granularities.
 
 #### Mappings
-- <kbd>Ctrl+t</kbd><kbd>n</kbd> (`:TestNearest`) Runs the test nearest to the cursor
-- <kbd>Ctrl+t</kbd><kbd>f</kbd> (`:TestFile`) Runs all tests in the current file
-- <kbd>Ctrl+t</kbd><kbd>s</kbd> (`:TestSuite`) Runs the whole test suite.
-- <kbd>Ctrl+t</kbd><kbd>l</kbd> (`:TestLast`) Runs the last test.
-- <kbd>Ctrl+t</kbd><kbd>g</kbd> (`:TestVisit`) Visits the test file from which you last run your tests
+- <kbd>t</kbd><kbd>Ctrl+n</kbd> (`:TestNearest`) Runs the test nearest to the cursor
+- <kbd>t</kbd><kbd>Ctrl+f</kbd> (`:TestFile`) Runs all tests in the current file
+- <kbd>t</kbd><kbd>Ctrl+s</kbd> (`:TestSuite`) Runs the whole test suite.
+- <kbd>t</kbd><kbd>Ctrl+l</kbd> (`:TestLast`) Runs the last test.
+- <kbd>t</kbd><kbd>Ctrl+g</kbd> (`:TestVisit`) Visits the test file from which you last run your tests
 
 ## [vim-textobj-rubyblock](https://github.com/nelstrom/vim-textobj-rubyblock)
 A custom text object for selecting ruby blocks.
