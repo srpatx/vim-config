@@ -208,3 +208,4 @@ It also handles switching the cursor to a bar shaped one when in insert mode, an
 - molokai
 - solarized
 - tomorrow
+- base16
