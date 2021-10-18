@@ -6,6 +6,7 @@ set -e
 set -x
 
 cd "$ROOT"
+git submodule sync
 git submodule update --init --recursive
 ln -sf "$ROOT/vimrc" ~/.vimrc
 ln -sf "$ROOT/gvimrc" ~/.gvimrc
