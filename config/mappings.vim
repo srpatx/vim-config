@@ -67,3 +67,6 @@ map <leader>u :UndotreeToggle<CR> :UndotreeFocus<CR>
 
 " vim-blockle.vim
 let g:blockle_mapping = '<leader>l'
+
+" ctags
+map <leader>rt :Dispatch! ctags<CR>
