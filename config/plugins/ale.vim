@@ -16,3 +16,5 @@ nmap <silent> <C-J> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
 cnoreabbrev alf ALEFix
+
+let g:ale_ruby_rubocop_executable="./bin/rubocop"
