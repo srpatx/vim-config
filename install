@@ -10,3 +10,4 @@ git submodule sync
 git submodule update --init --recursive
 ln -sf "$ROOT/vimrc" ~/.vimrc
 ln -sf "$ROOT/gvimrc" ~/.gvimrc
+ln -sf "$ROOT/ideavimrc" ~/.ideavimrc

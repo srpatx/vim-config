@@ -1,0 +1,4 @@
+" https://github.com/JetBrains/ideavim/wiki/Emulated-plugins
+Plug 'tpope/vim-surround'
+Plug 'preservim/nerdtree'
+Plug 'machakann/vim-highlightedyank'
