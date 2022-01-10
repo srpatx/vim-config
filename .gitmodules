@@ -106,9 +106,6 @@
 [submodule "pack/buildgroundwork/start/vim-js-arrow-function"]
 	path = pack/buildgroundwork/start/vim-js-arrow-function
 	url = https://github.com/mvolkmann/vim-js-arrow-function.git
-[submodule "pack/buildgroundwork/start/vim-toml"]
-	path = pack/buildgroundwork/start/vim-toml
-	url = https://github.com/cespare/vim-toml.git
 [submodule "pack/buildgroundwork/start/csv.vim"]
 	path = pack/buildgroundwork/start/csv.vim
 	url = https://github.com/chrisbra/csv.vim.git

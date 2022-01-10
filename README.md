@@ -189,9 +189,6 @@ Create your own text objects.
 
 Dependency of vim-textobj-rubyblock.
 
-## [vim-toml](https://github.com/cespare/vim-toml)
-Vim syntax for [TOML](https://github.com/toml-lang/toml).
-
 ## [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
 Pairs of handy bracket mappings.
 
