@@ -56,7 +56,7 @@ set autowriteall                " Save when doing various buffer-switching thing
 autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or MacVim loses focus.
 
 set background=dark
-colorscheme solarized
+colorscheme base16-tomorrow-night
 
 if $TERM == 'screen-256color'
   set t_RV=[>c
@@ -73,3 +73,8 @@ if &term == "screen-256color"
   let &t_EI = "\<Esc>[0 q"
 endif
 
+" base16-shell integration
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
