@@ -124,3 +124,6 @@
 [submodule "pack/buildgroundwork/opt/base16-vim"]
 	path = pack/buildgroundwork/opt/base16-vim
 	url = https://github.com/fnune/base16-vim.git
+[submodule "pack/buildgroundwork/start/editorconfig-vim"]
+	path = pack/buildgroundwork/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
