@@ -127,3 +127,6 @@
 [submodule "pack/buildgroundwork/start/editorconfig-vim"]
 	path = pack/buildgroundwork/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "pack/buildgroundwork/start/vim-fish"]
+	path = pack/buildgroundwork/start/vim-fish
+	url = https://github.com/georgewitteman/vim-fish.git
