@@ -74,7 +74,10 @@ if &term == "screen-256color"
 endif
 
 " base16-shell integration
-if filereadable(expand("~/.vimrc_background"))
+set termguicolors
+if exists('$BASE16_THEME')
+    \ && (!exists('g:colors_name') 
+    \ || g:colors_name != 'base16-$BASE16_THEME')
   let base16colorspace=256
-  source ~/.vimrc_background
+  colorscheme base16-$BASE16_THEME
 endif
