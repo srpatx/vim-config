@@ -1,3 +1,2 @@
 let g:fzf_command_prefix='Fzf'
-set rtp+=/usr/local/opt/fzf
-
+exe 'set rtp+=' . system('printf $(brew --prefix)/opt/fzf')
